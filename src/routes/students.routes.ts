@@ -11,7 +11,7 @@ import { validate } from "../middlewares/validate";
 import {
   crearEstudianteSchema,
   actualizarEstudianteSchema
-} from "../schemas/student.schema";
+} from "../middlewares/validate.student";
 
 const router = Router();
 

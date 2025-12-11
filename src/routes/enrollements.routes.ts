@@ -12,7 +12,7 @@ import { validate } from "../middlewares/validate";
 import {
   enrollementSchema,
   enrollementUpdateSchema
-} from "../schemas/enrollement.schema";
+} from "../middlewares/validate.enrollement";
 
 const router = Router();
 

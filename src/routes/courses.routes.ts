@@ -2,7 +2,7 @@ import { validate } from "../middlewares/validate";
 import {
   crearCursoSchema,
   actualizarCursoSchema,
-} from "../schemas/course.schema";
+} from "../middlewares/validate.course.";
 
 import { Router } from "express";
 import {
