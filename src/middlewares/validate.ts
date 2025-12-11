@@ -16,7 +16,7 @@ export const validate = (schema: ZodSchema) =>
       });
     }
 
-    // Datos ya validados y tipados
+    
     req.body = result.data;
 
     next();
